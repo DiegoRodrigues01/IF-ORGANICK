@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Pessoas</title>
+    <link rel="stylesheet" type="text/css" href="/style/cadastro_pessoas.css">
+</head>
+<body>
+        <header>
+            <h1>Cadastro de Pessoas</h1>
+
+            <nav>
+                <ul>
+                    <li><a href="pagina_inicial.html">Início</a></li>
+                    <li><a href="cadastro-pessoas.html">Cadastro de Pessoas</a></li>
+                    <li><a href="cadastro-produtos.html">Cadastro de Produtos</a></li>
+                    <li><a href="pedidos.html">Pedidos</a></li>
+                </ul>
+            </nav>
+
+        </header>
+
+        <main>
+            <form id="formCadastroPessoa">
+                <label for="nome">Nome completo:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="">Data de Nascimento:</label>
+                <input type="date" id="date" name="date" required>
+
+                <label for="">CPF:</label>
+                <input type="text" name="cpf" id="cpf" required>
+    
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone" required>
+    
+                <button type="submit">Cadastrar</button>
+            </form>
+        </main>
+    
+        <footer>
+            <p>&copy; 2024 IFOrganik. Todos os direitos reservados.</p>
+        </footer>
+    </body>
+    </html>
